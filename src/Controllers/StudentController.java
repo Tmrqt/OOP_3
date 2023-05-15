@@ -1,8 +1,8 @@
 package Controllers;
 
+import Service.StudentGroupService;
+import Service.StudentService;
 import StudentDomen.Student;
-import StudentService.StudentGroupService;
-import StudentService.StudentService;
 
 public class StudentController implements iUserController<Student> {
 
